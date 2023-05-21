@@ -1,0 +1,22 @@
+/* heading */
+h1 ,h2 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+#rps-heading {
+    color: red;
+  font-size: 60px;
+  background-color: black;
+}
+
+p {
+    text-align: center;
+
+}
+ol, ul {
+    width: 300px;
+    margin: 0 auto;
+}

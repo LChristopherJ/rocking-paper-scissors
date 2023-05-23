@@ -42,7 +42,7 @@ The Random Approach: Choosing your moves entirely at random, making it difficult
 black ,red ,orange and white
 
 ## heading 
-Two very contrasting colors ,red for the text and black for the background all on tghe white base of the browser page.
+Two very contrasting colors ,red for the text and black for the background all on the white base of the browser page.
 Again black and red for the Rules ,choices ,and results of each game but reversed the colors , black text on a red background.
 
 
@@ -74,6 +74,10 @@ As a version-control system
 As a resource provider for fonts.
 
 # Testing
+
+## lighthouse
+
+<img src=>
 
 ## Responsiveness
 Chrome developer tools.
@@ -123,6 +127,8 @@ To complete this project I used Code Institute student template:
 https://github.com/Code-Institute-Org/ci-full-template
 
 I used Google fonts to import fonts.
+
+
  
 
 # Screenshots

@@ -4,46 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="rock paper scissors browser based game>
+    <meta name="keywords" content="rock paper scissors,rps,rock,paper,scissors">
     <title>browser based game rock paper scissors</title>
     <link rel="stylesheet" href="css/style.css">
+    
+           
+    
 </head>
 <body>
-    <h1>Rock paper Scissors</h1>
-    <h2>Rules Of The Game</h2>
-    <p>Here's a summary of the winning combinations:
-        <ol>
-            <li>Rock wins against Scissors.</li>
-            <li>Scissors win against Paper.</li>
-            <li>Paper wins against Rock.</li>
-        </ol>
+    <section id="full-page">
+    <h1 id = "rps-heading"><strong>Rock paper scissors</strong></h1>
+    <h2 id="rules" >Rules Of The Game</h2>
+    <p>Here's a summary of the winning combinations:</p>
+    <img src="/images.html/funny rps.jpeg" alt="rock paper scissors diagram">
+    <br>
+        <ul>
+            <li>Rock blunts Scissors.</li>
+            <li>Scissors cuts Paper.</li>
+            <li>Paper covers Rock.</li>
+        </ul>
+        <br>
         <ul>
             <li> The objective of the game is to choose the winning hand gesture and defeat your opponent's choice.</li>
             <br>
             <li>   It's a game of chance and strategy, try to anticipate your opponent's move and choose the gesture that defeats it</li>
         </ul>
-    </p>
+        
+    
     <div class="game-container">
         <div>
             <h2><span id="user-choice">Players Choice:</span></h2>
-            <button id="rock" >Rock</button>
-            <button id="paper">Paper</button>
-            <button id="scissors">Scissors</button>
+            <button id="rock" >rock</button>
+            <button id="paper">paper</button>
+            <button id="scissors">scissors</button>
         </div>
+    </div>
         <div>
-            <h2><span id="computer-choice">Computer choice: </span></h2>
-        </div>
+            <h2><span id="computer-choice">Computer choice: </span></h2>>
         <div class="result">
-            <h2>Result:</h2>
+            <h1>Result:</h1>
             <p id="result"></p>
         </div>
         <div id="computer-score">
-            <h2>Computer's score:</h2>
-            <p id="computer-score"></p>
+            <h3>Computer's score:</h3>
         </div>        
         <div id="user-score">
-            <h2>Score:</h2>
+            <h3>Players Score:</h3>
             <p id="score">0</p>
         </div>
-    </div>
+        <script src="script.js"></script>
 </body>
 </html>

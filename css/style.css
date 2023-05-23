@@ -1,22 +1,96 @@
-/* heading */
-h1 ,h2 {
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=PT+Serif&display=swap');
+
+    
+#full-page {
     text-align: center;
-    font-size: 48px;
-    margin-bottom: 50px;
-    text-decoration: underline;
+    background-image: url(/images.html/light\ brick.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #rps-heading {
-    color: red;
-  font-size: 60px;
-  background-color: black;
+    font-size: xx-large;
+    background-color: darkred;
+    color: yellow;
+    text-transform: uppercase;
+}
+#rules {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: darkred;
+    color: yellow    
 }
 
 p {
-    text-align: center;
-
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color:darkred;
+    font-size: xx-large;
+    font-weight: 600;
 }
-ol, ul {
+
+ul {
     width: 300px;
     margin: 0 auto;
+    text-align: center; 
+    font-weight: 600;
+  }
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 50px;
+    text-align: center;
+}
+.choices-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.choice-btn {
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 20px;
+    padding: 20px 40px;
+    transition: all 0.2s ease-in-out;
+}
+
+.choice-btn:hover {
+    background-color: #000;
+    
+}
+
+.result-container {
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    text-align: centre;
+    }
+
+.result-message {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.score-container {
+    display: flex;
+    justify-content: center; 
+}
+
+
+.score-text {
+    font-size: 24px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.score-number {
+    font-size: 36px;
+    font-weight: bold;
 }

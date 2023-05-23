@@ -121,6 +121,7 @@ remedy that.
 In addition, I used python3 -m http.server command to deploy the website while developing. I made the link public so I could use other devices as well.
 
 I used GitHub pages to deploy my website. Through this link:
+[link to website](https://lchristopherj.github.io/rocking-paper-scissors/)
 
 # Credits
 
@@ -134,6 +135,9 @@ i aslo followed the layout for the README. file from an example online
 
 # Screenshots
 
-
+##### [headings](images.html/headings.png)
+##### [rules](images.html/rules.png)
+##### [winning combos](images.html/winning%20combos.png)
+##### [choices and results](images.html/choices%20and%20results.png)
 
 

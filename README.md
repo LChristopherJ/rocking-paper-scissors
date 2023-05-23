@@ -3,7 +3,7 @@
 the browser site  shows the classic game "Rock Paper Siccors" , Users can can play against computer for attempt to get 3 wins before the computer does.
 This project has been done as my second portfolio project at Code Institue. JavaScript, HTML and CSS have been used in creating this browser-based game.
 
-# User Experience
+[screenshot of responsive design](images.html/project%202%20responsiveness.png)
 
 ## Owner goals 
 The  main purpose of creating this website was to get my project done and present my learning outcomes from JavaScript, CSS and HTML.
@@ -30,10 +30,6 @@ Paper beats rock: Paper can wrap around the rock, rendering it powerless.
 # The psychology of play 
 While Rock Paper Scissors may seem like a game of chance, there is an element of psychology that can come into play. Observing your opponent's patterns, anticipating their moves, and strategically adjusting your choices can give you an edge.
 
-# Some common stratergies include
-The Gambler's Fallacy: Assuming your opponent will not choose the same option multiple times in a row.
-The Mirror Strategy: Mirroring your opponent's previous choice, hoping to anticipate their next move.
-The Random Approach: Choosing your moves entirely at random, making it difficult for your opponent to predict your choices.
 
 # User Interface
 
@@ -42,13 +38,16 @@ The Random Approach: Choosing your moves entirely at random, making it difficult
 black ,red ,orange and white
 
 ## heading 
-Two very contrasting colors ,red for the text and black for the background all on the white base of the browser page.
-Again black and red for the Rules ,choices ,and results of each game but reversed the colors , black text on a red background.
+Two very contrasting colors ,red for the background and yellow for the text all on
+
+the white wall background of the browser page.
+
+Again red and yellow for the Rules ,choices ,and red for results of each game
 
 
 
 ## Fonts
-I used PT serifs the main font  and sans-serif as backup.
+I used 'Josefin Sans' as the main font  and sans-serif as backup.
 
 # Technologies used
 
@@ -77,7 +76,7 @@ As a resource provider for fonts.
 
 ## lighthouse
 
-<img src=>
+[lighthouse testing](images.html/lighthouse.png)
 
 ## Responsiveness
 Chrome developer tools.
@@ -86,10 +85,14 @@ Chrome developer tools.
 ## W3 html validator
 Document checking completed. No errors or warnings to show.
 
+[w3 html testing](images.html/screenshot%20w3%20html.png)
+
 
 
 ## W3 CSS validator
 Congratulations! No Error Found.
+
+[w3 css testing](images.html/Screenshot%20w3%20css.png)
 
 
 
@@ -98,20 +101,18 @@ no immediate errors that would effect my code indicated.
 
 
 # Issues found during the development
-some issues wityh js code , first not linking then not performing as expected ,what
+Some issues with js code , first not linking then not performing as expected ,what
 
- i thought may have been a logical error  in my  function  turned out to be an error
+i thought may have been a logical error  in my  function  turned out to be an error
  
-  in the naming of the elements and placement of the id's. i founf this issues using
+in the naming of the elements and placement of the id's. i founf this issues using
   
-   chrome developer tools as well,as going online with tutor support.
- 
- 
+chrome developer tools as well,as going online with tutor support, also when 
 
- 
- 
+deploying to git hub pages i found that my file paths where incorrect so i had to 
 
-
+remedy that.
+ 
 
 
 # Deployment
@@ -128,7 +129,7 @@ https://github.com/Code-Institute-Org/ci-full-template
 
 I used Google fonts to import fonts.
 
-
+i aslo followed the layout for the README. file from an example online
  
 
 # Screenshots

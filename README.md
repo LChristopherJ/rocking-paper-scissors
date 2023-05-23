@@ -1,108 +1,132 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# rock paper scissors
 
-Welcome USER_NAME,
+the browser site  shows the classic game "Rock Paper Siccors" , Users can can play against computer for attempt to get 3 wins before the computer does.
+This project has been done as my second portfolio project at Code Institue. JavaScript, HTML and CSS have been used in creating this browser-based game.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# User Experience
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Owner goals 
+The  main purpose of creating this website was to get my project done and present my learning outcomes from JavaScript, CSS and HTML.
+## User goals
+The user may enter the website to play the game against computer in order to be enterntained. 
 
-## Gitpod Reminders
+# How the game works
+Rock Paper Scissors is a game that has stood the test of time and continues to bring joy and excitement to people of all ages. The concept is simple, yet the strategic possibilities make it a fascinating and engaging game.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# The three choices
+The game revolves around three basic choices: rock, paper, and scissors. Each choice represents a different object or gesture:
 
-`python3 -m http.server`
+Rock: It's a solid choice that can crush scissors.
+Paper: It can cover rock and render it useless.
+Scissors: They can cut through paper, making it ineffective.
 
-A blue button should appear to click: _Make Public_,
+# Rules of engagement
+The rules of Rock Paper Scissors are straightforward:
 
-Another blue button should appear to click: _Open Browser_.
+Rock beats scissors: The mighty rock can break the scissors, earning victory.
+Scissors beat paper: The sharp blades of the scissors can cut through the paper, claiming the win.
+Paper beats rock: Paper can wrap around the rock, rendering it powerless.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# The psychology of play 
+While Rock Paper Scissors may seem like a game of chance, there is an element of psychology that can come into play. Observing your opponent's patterns, anticipating their moves, and strategically adjusting your choices can give you an edge.
 
-A blue button should appear to click: _Make Public_,
+# Some common stratergies include
+The Gambler's Fallacy: Assuming your opponent will not choose the same option multiple times in a row.
+The Mirror Strategy: Mirroring your opponent's previous choice, hoping to anticipate their next move.
+The Random Approach: Choosing your moves entirely at random, making it difficult for your opponent to predict your choices.
 
-Another blue button should appear to click: _Open Browser_.
+# User Interface
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## colors
 
-To log into the Heroku toolbelt CLI:
+black ,red ,orange and white
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## heading 
+Two very contrasting colors ,red for the text and black for the background all on tghe white base of the browser page.
+Again black and red for the Rules ,choices ,and results of each game but reversed the colors , black text on a red background.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
+## Fonts
+I used PT serifs the main font  and sans-serif as backup.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Technologies used
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### HTML5
+Structural language
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### CSS3
+Styling language
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### JAVASCRIPT
+Logical language
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### GitHub
+As a platform to keep the project files as well as hosting my website through GitHub pages.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Codeanywhere
+As a coding and development platform.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Git
+As a version-control system
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Google fonts
+As a resource provider for fonts.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+# Testing
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Responsiveness
+Chrome developer tools.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## W3 html validator
+Document checking completed. No errors or warnings to show.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## W3 CSS validator
+Congratulations! No Error Found.
 
-------
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+## JShint
+no immediate errors that would effect my code indicated.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+# Issues found during the development
+some issues wityh js code , first not linking then not performing as expected ,what
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+ i thought may have been a logical error  in my  function  turned out to be an error
+ 
+  in the naming of the elements and placement of the id's. i founf this issues using
+  
+   chrome developer tools as well,as going online with tutor support.
+ 
+ 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+ 
+ 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+# Deployment
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+In addition, I used python3 -m http.server command to deploy the website while developing. I made the link public so I could use other devices as well.
 
-**Anything more?**
+I used GitHub pages to deploy my website. Through this link:
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+# Credits
 
----
+To complete this project I used Code Institute student template:
+https://github.com/Code-Institute-Org/ci-full-template
 
-Happy coding!
+I used Google fonts to import fonts.
+ 
+
+# Screenshots
+
+
+
+
